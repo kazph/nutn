@@ -1,21 +1,27 @@
-# Astro Starter Kit: Basics
+# NUTN
+*Sliter du også med å finne frem i NTNUs IT-jungel, hva er alle programmene til? Hvilke skal jeg bruke dette? Hvordan bruker jeg dette?*
 
+Det er iallefall dette jeg sliter med, og etterhvert har jeg bokmerket så mange forsjellige sider til at jeg velgte å lage en kunne føre meg videre til disse. Dermed kan jeg presanter **NUTN** (dah daaah). På denne nettsiden så kan man lettere navigere NTNUs sider og applikasjoner! Tusen takk til instabart for insperasjonen, men håper denne tjener meg bedre, da det er flere applikasjoner og oppdatert. 
+
+## Hvordan bygge prosjektet
+Får å bygge nettsiden er det satt opp en automatisk workflow når man pusher til `master`. Uansett kan man bygge den lokalt slik som man gjør med Astro, man kan se en oversikt over hvordan man kan gjøre det under. 
+
+All commands are run from the root of the project, from a terminal:
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:3000`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 ```
 npm create astro@latest -- --template basics
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Prosjektstruktur
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Prosjektet er bygget opp som standard Astro-prosjekter, som er på følgende måte. 
 
 ```
 /
@@ -31,25 +37,8 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Sprsåket innad i kodebasen er hovedsaklig på Engelsk, men ofte glemmer jeg meg bort. 
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+For komponenter som trenger større interaktivitet enn det Astro kan gi så kan man bruke Solid.js components. 
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+For å utvilke kan det være nyttig å studere [Astros dokumentasjon](https://docs.astro.build).
