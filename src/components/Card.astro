@@ -1,0 +1,68 @@
+---
+import IcoL from "./../pictograms/alarm.svg?raw";
+import IcoA from "./../pictograms/assessment-used.svg?raw";
+import IcoB from "./../pictograms/badge.svg?raw";
+import IcoC from "./../pictograms/calendar.svg?raw";
+import IcoD from "./../pictograms/chart--custom.svg?raw";
+import IcoS from "./../pictograms/chart--evaluation.svg?raw";
+import IcoE from "./../pictograms/education.svg?raw";
+import IcoF from "./../pictograms/envelope.svg?raw";
+import IcoT from "./../pictograms/financial--consultant.svg?raw";
+import IcoG from "./../pictograms/help-desk.svg?raw";
+import IcoM from "./../pictograms/id--badge.svg?raw";
+import IcoR from "./../pictograms/math--curve.svg?raw";
+import IcoQ from "./../pictograms/presentation.svg?raw";
+import IcoK from "./../pictograms/printer.svg?raw";
+import IcoH from "./../pictograms/rich--text--format.svg?raw";
+import IcoN from "./../pictograms/server--operating-systems.svg?raw";
+import IcoO from "./../pictograms/servers.svg?raw";
+import IcoJ from "./../pictograms/support.svg?raw";
+import IcoP from "./../pictograms/time.svg?raw";
+import IcoI from "./../pictograms/university.svg?raw";
+
+import { Test } from "./HoverCard";
+
+export interface Props {
+	title: string;
+	description: string;
+	href: string;
+	pictogram: string;
+	documentation: string,
+}
+
+const pictograms = new Map(
+	Object.entries({
+		alarm: IcoL,
+		assessment_used: IcoA,
+		badge: IcoB,
+		calender: IcoC,
+		chart: IcoD,
+		chart_evaluvation: IcoS,
+		education: IcoE,
+		envelope: IcoF,
+		financial_conultant: IcoT,
+		help_desk: IcoG,
+		id_badge: IcoM,
+		math_curve: IcoR,
+		presentation: IcoQ,
+		printer: IcoK,
+		rich_text_format: IcoH,
+		server_operating: IcoN,
+		servers: IcoO,
+		support: IcoJ,
+		time: IcoP,
+		university: IcoI,
+	})
+);
+
+const { title, description, href, pictogram, documentation } = Astro.props;
+---
+
+<Test 
+	pictogram={pictograms.get(pictogram) ?? pictograms.get("education")}
+	title={title}
+	href={href}
+	documentation_page={documentation}
+	description={description}
+	client:load 
+/>

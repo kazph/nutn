@@ -1,0 +1,31 @@
+---
+import DarkLightToggle from "./../icons/brightness-contrast.svg?raw";
+
+---
+
+<header class="
+    flex justify-between items-center
+    mx-auto container
+    p-4
+">
+    <div class="flex gap-8 items-center">
+        <a href="/">
+            <p class="font-extrabold text-3xl text-blue-700 dark:text-blue-500">NUTN</p>
+            <p class="text-sm italic text-gray-800 dark:text-gray-200">Naviger Uten Tull Nå</p>
+        </a>
+        <a href="#main-content" class="
+            bg-gray-200 py-2 px-4 rounded-lg font-semibold text-gray-800 -translate-y-96
+            focus:translate-y-0
+        ">Hopp til innholdet</a>
+    </div>
+    <nav class="
+        flex gap-4 sm:gap-8
+        text-gray-600 dark:text-gray-300 font-semibold text-sm
+        items-center
+    ">
+        <a href="/" class="hover:text-gray-900 hover:text-bold cursor-pointer hover:underline hover:dark:text-gray-100">Hjem</a>
+        <a href="/om/" class="hover:text-gray-900 hover:text-bold cursor-pointer hover:underline hover:dark:text-gray-100">Om siden</a>
+        <a href="/kontakt/" class="hover:text-gray-900 hover:text-bold cursor-pointer hover:underline hover:dark:text-gray-100">Kontakt</a>
+        <button class="w-5 h-5 fill-gray-600 dark:fill-gray-300 hover:text-gray-900 hover:dark:text-gray-100"><Fragment set:html={DarkLightToggle} /></button>
+    </nav>
+</header>

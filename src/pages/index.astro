@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from "./../components/Card.astro"
+
+import linksData from "../links.json";
+
+---
+
+<Layout title='NUTN'>
+	<div class="flex flex-col items-center gap-6">
+		<div>
+			<div class="
+				flex gap-4 
+				p-1 rounded-lg bg-gray-100
+				
+			">
+				<p class="rounded-md py-1 px-4  font-semibold text-gray-800 bg-white">Fagelig</p>
+				<p class="rounded-md py-1 px-4  font-semibold text-gray-600">Begge</p>
+				<p class="rounded-md py-1 px-4  font-semibold text-gray-600">Sosialt</p>
+			</div>
+			<p class="text-xs text-center italic hover:underline cursor-pointer text-gray-600 pt-1">Husk dette valget! (Fungerer ikke enda, kanksje en dag...)</p>
+		</div>
+		{Object.values(linksData).map(data => {
+	
+			return <>
+				<h1 class="text-2xl font-bold text-gray-800 mt-5">{data.name}</h1>
+				<section class="
+					w-full
+					grid gap-6 
+					grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6
+				">
+					{data.links.map(link => <Card
+						title={link.name}
+						description={link.description}
+						href={link.href}
+						pictogram={link.icon}
+						documentation={link.documentation_page}	 
+					/>)}
+				</section>
+			</>	
+		})}
+	</div>
+</Layout>

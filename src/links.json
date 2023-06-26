@@ -1,0 +1,143 @@
+{
+    "_default": {
+        "name": "",
+        "links": [
+            {
+                "name": "Blackboard",
+                "description": "Blackboard er NTNUs læringssystem, her finner du alt om emnene, innlevering ol.",
+                "href": "https://innsida.ntnu.no/blackboard/",
+                "icon": "education",
+                "documentation_page": "https://i.ntnu.no/bb-student"
+            },
+            {
+                "name": "E-post",
+                "description": "Det er overraskende hvor ofte man trenger å sjekke e-post, man har egen student e-post som student.",
+                "href": "https://outlook.office365.com/owa/?realm=ntnu.no#path=/mail",
+                "icon": "envelope"
+            },
+            {
+                "name": "Timeplan",
+                "description": "Her kan man finne timeplanen til emner og rom, for å sjekke til eksamen, se 'studentweb'. Noen fakulitet og rom kan bruke andre systemer.",
+                "href": "https://tp.educloud.no/ntnu/timeplan/timeplan.php?type=courseact",
+                "icon": "calender",
+                "documentation_page": "https://i.ntnu.no/timeplan"
+            },
+            {
+                "name": "Microsoft 365",
+                "description": "Tidligere kalt Office 365, Word, Excel, PowerPoint, Teams ol.",
+                "href": "http://innsida.ntnu.no/o365",
+                "icon": "rich_text_format"
+            },
+            {
+                "name": "Studentweb",
+                "description": "I Studentweb finner du informasjon om deg og ditt studium.",
+                "href": "https://www.ntnu.no/studentweb",
+                "icon": "badge",
+                "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/Studentweb"
+            },
+            {
+                "name": "Søknadsweb",
+                "description": "Skal du søke om noe er det som regel søknadsweb, som internt bytte, mastergrad mm.",
+                "href": "https://fsweb.no/soknadsweb/login.jsf?inst=ntnu",
+                "icon": "assessment_used",
+                "documentation_page": "https://www.ntnu.no/studier/soknadsweb"
+            },
+            {
+                "name": "Inspera",
+                "description": "Har du digital eksamen? Da er det nok inspera! Man kan også finne tidligere eksamner, begrunnelser, tester mm.",
+                "href": "#",
+                "icon": "chart",
+                "documentation_page": "https://i.ntnu.no/eksamen"
+            },
+            {
+                "name": "Bibloteket (Oria)",
+                "description": "Her kan man finne artikkler, samt sjekke lånestatus mm. Det er også kurs og muliughet for hjelp. Det er et offentlig biblotek åpent for alle.",
+                "href": "https://www.ntnu.no/ub",
+                "icon": "university"
+            }
+        ]
+    },
+    "_less_importent": {
+        "name": "",
+        "links": [
+            {
+                "name": "Overleaf",
+                "description": "Overleaf (ShareLaTex) er en web-basert LaTeX-editor. Flere kan redigere på det samme dokument og i sanntid se hva de andre gjør.",
+                "href": "https://www.overleaf.com/edu/ntnu",
+                "icon": "math_curve",
+                "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/Overleaf"
+            },
+            {
+                "name": "Programfarm",
+                "description": "Med Programfarm gjør at man får tilgang til mange Windows-programmer - uten å ha dem installert på din egen maskin. Dette er spesielt nyttig om du sitter på en ikke-Windows maskin. ",
+                "href": "#",
+                "icon": "servers",
+                "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/Programfarm"
+            },
+            {
+                "name": "Programvarer",
+                "description": "Mange programmer er gratis tilgjengelig for NTNU-studenter. Trenger du Matlab, for eksempel? Endnote? Clue?",
+                "href": "https://apps.ntnu.no/",
+                "icon": "server_operating",
+                "documentation_page": "https://i.ntnu.no/studentprogramvare"
+            },
+            {
+                "name": "Emnr",
+                "description": "Emnr er en studentdrevet side hvor man kan søke opp fag og lese anmeldelser av andre studenter, og skrive sine egne anmeldelser",
+                "href": "https://emnr.no/",
+                "icon": "presentation"
+            },
+            {
+                "name": "Rombestilling",
+                "description": "Trenger du å bestille grupperom? Vær kjapp!",
+                "href": "https://tp.educloud.no/ntnu/rombestilling/?",
+                "icon": "time",
+                "documentation_page": "https://i.ntnu.no/romreservasjon"
+            },
+            {
+                "name": "Printer",
+                "description": "Som student så kan du skrive ut dokumenter som bare det! Her står det hvordan, og du kan også sjekke din saldo.",
+                "href": "https://i.ntnu.no/utskrift-kopi",
+                "icon": "printer"
+            },
+            {
+                "name": "NTNU Hjelp",
+                "description": "NTNU Hjelp er en selvhjelpsportal for deg som student. Dersom det er IT-hjelp, kan det være orklatjenesten fungerer bedre!",
+                "href": "https://hjelp.ntnu.no/tas/public/login/saml/",
+                "icon": "help_desk",
+                "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/NTNU+Hjelp"
+            },
+            {
+                "name": "Orklatjenesten",
+                "description": "Har du problemer med IT, da kan du kontakt orklatjenesten. Det kan du gjøre på denne siden!",
+                "href": "https://i.ntnu.no/wiki/-/wiki/Norsk/Orakeltjenesten",
+                "icon": "support"
+            },
+            {
+                "name": "NTNU Bridge",
+                "description": "NTNU Bridge er et sted som man kan søke jobber og komme i kontakt med næringslivet. Snart kommer også studentassistent stillinger hit.",
+                "href": "https://www.ntnu.no/bridge/student",
+                "icon": "id_badge"
+            },
+            {
+                "name": "Emne<wbr />evaluvering",
+                "description": "Vil du lese fagansvarlige og studeprogrammets forbedringsarbeid, og hva arbeidet i referansegruppe fører til, her finner man dette forbedringsarbeidet.",
+                "href": "https://innsida.ntnu.no/studiekvalitetsportalen/",
+                "icon": "chart_evaluvation"
+            },
+            {
+                "name": "Selvbetjenings<wbr />portalen",
+                "description": "Dersom du er ansatt så finner du alt mulig her, kontrakt, timelister, lønnslipper, you name it!",
+                "href": "https://login.dfo.no/?idp=feide&service=selvbetjeningsportal",
+                "icon": "financial_conultant",
+                "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/Selvbetjeningsportalen"
+            },
+            {
+                "name": "Si ifra!",
+                "description": "har det sjedd noe som ikke burde sjedd, si ifra!",
+                "href": "https://i.ntnu.no/sifra",
+                "icon": "alarm"
+            }
+        ]
+    }
+}
