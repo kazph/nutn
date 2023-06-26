@@ -45,7 +45,7 @@
             {
                 "name": "Inspera",
                 "description": "Har du digital eksamen? Da er det nok inspera! Man kan også finne tidligere eksamner, begrunnelser, tester mm.",
-                "href": "#",
+                "href": "https://ntnu.inspera.no/",
                 "icon": "chart",
                 "documentation_page": "https://i.ntnu.no/eksamen"
             },
