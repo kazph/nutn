@@ -70,7 +70,7 @@
             {
                 "name": "Programfarm",
                 "description": "Med Programfarm gjør at man får tilgang til mange Windows-programmer - uten å ha dem installert på din egen maskin. Dette er spesielt nyttig om du sitter på en ikke-Windows maskin. ",
-                "href": "#",
+                "href": "https://farm.ntnu.no/",
                 "icon": "servers",
                 "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/Programfarm"
             },
