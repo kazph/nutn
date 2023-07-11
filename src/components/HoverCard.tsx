@@ -22,7 +22,7 @@ export function Test(props: {
 			<HoverCard.Portal>
 				<HoverCard.Content class="bg-white p-4 w-64 border-2 border-gray-200 rounded shadow-md">
 					<HoverCard.Arrow class="rounded-none" />
-					<h4 class="text-sm font-bold">{props.title}</h4>
+					<h4 class="text-sm font-bold" innerHTML={props.title} />
 					<p>{props.description}</p>
 
 					{props.documentation_page && 
