@@ -10,7 +10,7 @@ export function Test(props: {
 	return (
 		<HoverCard.Root>
 			<HoverCard.Trigger
-				class="border-2 border-gray-200 hover:border-gray-400 hover:bg-gray-50 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800 dark:border-gray-800 dark:hover:bg-gray-800"
+				class="border-[1px] border-gray-600 hover:border-gray-700 hover:bg-gray-100 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800 dark:border-gray-800 dark:hover:bg-gray-800"
 				href={props.href}
 			>
 				<div
@@ -20,7 +20,7 @@ export function Test(props: {
 				<h2 class="font-semibold text-gray-700 dark:text-gray-200 text-lg" innerHTML={props.title} />
 			</HoverCard.Trigger>
 			<HoverCard.Portal>
-				<HoverCard.Content class="bg-white dark:bg-gray-800 p-4 w-64 border-2 border-gray-200 rounded shadow-md">
+				<HoverCard.Content class="bg-white dark:bg-gray-800 p-4 w-64 border-2 border-gray-200 dark:border-gray-800 rounded shadow-md">
 					<HoverCard.Arrow class="rounded-none" />
 					<h4 class="text-sm font-bold dark:text-gray-200" innerHTML={props.title} />
 					<p class="dark:text-gray-200">{props.description}</p>
