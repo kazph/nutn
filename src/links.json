@@ -114,6 +114,12 @@
                 "icon": "support"
             },
             {
+                "name": "IT-varsler",
+                "description": "Fungerer ikke programmet? Sjekk ut IT-varsel om det er din feil, eller IT sin!",
+                "href": "https://varsel.it.ntnu.no/",
+                "icon": "question"
+            },
+            {
                 "name": "NTNU Bridge",
                 "description": "NTNU Bridge er et sted som man kan søke jobber og komme i kontakt med næringslivet. Snart kommer også studentassistent stillinger hit.",
                 "href": "https://www.ntnu.no/bridge/student",
