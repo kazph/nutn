@@ -50,8 +50,8 @@
                 "documentation_page": "https://i.ntnu.no/eksamen"
             },
             {
-                "name": "Bibloteket (Oria)",
-                "description": "Her kan man finne artikkler, samt sjekke lånestatus mm. Det er også kurs og muliughet for hjelp. Det er et offentlig biblotek åpent for alle.",
+                "name": "Biblioteket (Oria)",
+                "description": "Her kan man finne artikkler, samt sjekke lånestatus mm. Det er også kurs og mulighet for hjelp. Det er et offentlig bibliotek åpent for alle.",
                 "href": "https://www.ntnu.no/ub",
                 "icon": "university"
             }
@@ -102,14 +102,14 @@
             },
             {
                 "name": "NTNU Hjelp",
-                "description": "NTNU Hjelp er en selvhjelpsportal for deg som student. Dersom det er IT-hjelp, kan det være orklatjenesten fungerer bedre!",
+                "description": "NTNU Hjelp er en selvhjelpsportal for deg som student. Dersom det er IT-hjelp, kan det være Orakeltjenesten fungerer bedre!",
                 "href": "https://hjelp.ntnu.no/tas/public/login/saml/",
                 "icon": "help_desk",
                 "documentation_page": "https://i.ntnu.no/wiki/-/wiki/Norsk/NTNU+Hjelp"
             },
             {
-                "name": "Orklatjenesten",
-                "description": "Har du problemer med IT, da kan du kontakt orklatjenesten. Det kan du gjøre på denne siden!",
+                "name": "Orakeltjenesten ",
+                "description": "Har du problemer med IT, da kan du kontakt Orakeltjenesten. Det kan du gjøre på denne siden!",
                 "href": "https://i.ntnu.no/wiki/-/wiki/Norsk/Orakeltjenesten",
                 "icon": "support"
             },
@@ -126,7 +126,7 @@
                 "icon": "id_badge"
             },
             {
-                "name": "Emne<wbr />evaluvering",
+                "name": "Emne<wbr />evaluering",
                 "description": "Vil du lese fagansvarlige og studeprogrammets forbedringsarbeid, og hva arbeidet i referansegruppe fører til, her finner man dette forbedringsarbeidet.",
                 "href": "https://innsida.ntnu.no/studiekvalitetsportalen/",
                 "icon": "chart_evaluvation"
