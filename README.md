@@ -1,44 +1,61 @@
-# NUTN
-*Sliter du også med å finne frem i NTNUs IT-jungel, hva er alle programmene til? Hvilke skal jeg bruke dette? Hvordan bruker jeg dette?*
+# NUTN: Naviger NTNU enkelt
 
-Det er iallefall dette jeg sliter med, og etterhvert har jeg bokmerket så mange forsjellige sider til at jeg velgte å lage en kunne føre meg videre til disse. Dermed kan jeg presanter **NUTN** (dah daaah). På denne nettsiden så kan man lettere navigere NTNUs sider og applikasjoner! Tusen takk til instabart for insperasjonen, men håper denne tjener meg bedre, da det er flere applikasjoner og oppdatert. 
+**Sliter du også med å finne frem i NTNUs IT-jungel?** Hva er alle programmene til, hvilke skal du bruke, og hvordan bruker du dem? NUTN er løsningen! Denne nettsiden gjør det enkelt å navigere NTNUs sider og applikasjoner. Den er inspirert av instabart, men tilbyr et mer omfattende og oppdatert utvalg av applikasjoner.
 
-## Hvordan bygge prosjektet
-Får å bygge nettsiden er det satt opp en automatisk workflow når man pusher til `master`. Uansett kan man bygge den lokalt slik som man gjør med Astro, man kan se en oversikt over hvordan man kan gjøre det under. 
+✨ Funksjoner
+NUTN har en omfattende liste med alle NTNU-relaterte programmer og nettsteder på ett sted. Man kan få en kort beskrivelse av hvert program og nettsted ved å holde musepekeren over det og trykke på kortene for å komme deg rett til programmet eller nettstedet du trenger.
 
-All commands are run from the root of the project, from a terminal:
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Bidra
+Dersom du ønsker å bidra er det veldig ønskelig!
+
+    Klon prosjektet: git clone https://github.com/YOUR_USERNAME/NUTN.git
+    Installer avhengigheter: npm install
+    Start lokal server: npm run dev
+    Åpne i nettleser: http://localhost:3000
+
+
+
+## Teknisk informasjon
+
+NUTN er bygget med Astro med solid.js integrajsonen. Du kan bygge og kjøre den lokalt eller distribuere den til et nettsted.
+
+Kommandoer:
+
+    npm install: Installerer avhengigheter
+    npm run dev: Starter lokal server på http://localhost:3000
+    npm run build: Bygger nettsiden til dist-mappen
+    npm run preview: Forhåndsviser nettsiden lokalt
+    npm run astro ...: Kjør Astro CLI-kommandoer (f.eks. astro add, astro check)
+    npm run astro -- --help: Få hjelp med Astro CLI
+
+Prosjektstruktur:
+
 ```
-npm create astro@latest -- --template basics
-```
-
-## Prosjektstruktur
-
-Prosjektet er bygget opp som standard Astro-prosjekter, som er på følgende måte. 
-
-```
-/
+│
 ├── public/
-│   └── favicon.svg
+│   Dette er prosjektets offentlige filer, hovedsakelig med faviconene.    
+│
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
 │   ├── layouts/
 │   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── pages/
+│   │   └── index.astro
+│   │       Dette er hovedsiden og den viktigste siden
+│   │ 
+│   └── link.json
+│       Dette er kanskje noe av den viktigste filen, dette er et JSON-dokument 
+│       hvor alle linkene og teksten brukt på nettsiden er lagret. 
+│
 └── package.json
+
 ```
 
-Sprsåket innad i kodebasen er hovedsaklig på Engelsk, men ofte glemmer jeg meg bort. 
+Språk: Hovedsakelig engelsk, men noen norske kommentarer kan forekomme.
 
-For komponenter som trenger større interaktivitet enn det Astro kan gi så kan man bruke Solid.js components. 
+Større interaktivitet: For komponenter som trenger mer interaktivitet enn Astro kan tilby, kan du bruke Solid.js-komponenter.
 
-For å utvilke kan det være nyttig å studere [Astros dokumentasjon](https://docs.astro.build).
+Mer informasjon: Se Astros dokumentasjon for detaljert utviklingsinformasjon: https://docs.astro.build/en/getting-started/
+
+Jeg håper du finner NUTN nyttig!
